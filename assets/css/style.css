@@ -1,0 +1,23 @@
+/* --------- Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap');
+
+/* --------- Reset style */
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    box-sizing: border-box;
+    border: none;
+    overflow: hidden;
+    outline: none;
+}
+
+/* --------- Global styles */
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(/assets/images/image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
