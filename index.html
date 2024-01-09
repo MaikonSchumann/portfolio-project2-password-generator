@@ -19,6 +19,48 @@
 
 </head>
 <body>
+    <!-- Main section -->
+    <main id="main-section">
+
+        <!-- One div as container -->
+        <div class="container glass">
+            <h1>Password Generator</h1>
+            <p>In need of a strong password?</p>
+            <p>I got you!</p>
+
+            <!-- Options -->
+            <div id="options">
+                <div class="form-control split-items">
+                    <label for="length">Length </label>
+                    <input type="number" name="length" id="length" min="1" max="35" value="10">
+                </div>
+                <div class="form-control selection-box">
+                    <input type="checkbox" name="letters" id="letters" checked>
+                    <label for="letters">Letters <span>(aA-zZ)</span></label>
+                </div>
+                <div class="form-control selection-box">
+                    <input type="checkbox" name="numbers" id="numbers" checked>
+                    <label for="numbers">Numbers <span>(0-9)</span></label>
+                </div>
+                <div class="form-control selection-box">
+                    <input type="checkbox" name="symbols" id="symbols" checked>
+                    <label for="symbols">Symbols <span>(!@#()$%{}&[]*)</span></label>
+                </div>
+            </div>
+
+            <!-- Generate Button -->
+            <button id="generate-password" class="buttons-styles">Generate</button>
+            
+            <p>Generated Password:</p>
+
+            <!-- Generated password -->
+            <div id="generated-password">
+                <p id="password" class="buttons-styles">🔒🔒🔒🔒🔒🔒</p>
+                <p class="tooltip">Click on password to copy</p>
+            </div>
+        </div>
+    </main>
+
     
 </body>
 </html>
