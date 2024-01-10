@@ -53,3 +53,42 @@ body{
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.1);
 }
+
+/* Form control styling */
+.form-control {
+    margin-bottom: .8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control span {
+    color: #4c4c4c;
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+.selection-box label{
+    padding-left: 10px;
+}
+
+.split-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Buttons styling */
+.buttons-styles{
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #742785;
+    cursor: pointer;
+    align-self: center;
+}
+
+.buttons-styles:hover{
+    background-color: #a04a94;
+}
