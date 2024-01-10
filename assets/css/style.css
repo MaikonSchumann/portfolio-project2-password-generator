@@ -21,3 +21,35 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+/* --------- Main section style */
+/* Main container styling */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 200px auto;
+    padding: 15px 30px;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.container p {
+    margin: 5px 0;
+}
+
+/* Glass effect styling */
+.glass{
+    /* background: linear-gradient(135deg rgba(255,255,255,0.1), rgba(255,255,255,0)); */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
