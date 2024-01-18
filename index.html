@@ -31,8 +31,9 @@
             <!-- Options -->
             <div id="options">
                 <div class="form-control split-items">
-                    <label for="length">Length </label>
-                    <input type="number" name="length" id="length" min="4" max="35" value="10">
+                    <label for="length" id="length-title">Length</label>
+                    <input type="range" name="length" id="length" min="04" max="35" value="10" step="1" oninput="this.nextElementSibling.value = this.value">
+                    <output class="length">10</output>
                 </div>
                 <div class="form-control selection-box">
                     <input type="checkbox" name="letters" id="letters" checked>
