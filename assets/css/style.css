@@ -100,14 +100,25 @@ a, i{
     background-color: #a04a94;
 }
 
-/* Number input styling */
+/* Range input styling */
 #length{
     background-color: #742785;   
-    text-align: center;
-    width: 60px;
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 50%;
 }
+
+.length{
+    background-color: #742785;
+    border-radius: 8px;
+    max-width: 60px;
+    min-width: 60px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#length-title{
+    padding: 5px 0;
+}
+
 
 /* Tooltip styling */
 .tooltip{
