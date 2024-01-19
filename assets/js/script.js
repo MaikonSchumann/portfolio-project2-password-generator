@@ -19,7 +19,7 @@ function getCharacter(character) {
     return character[Math.floor(Math.random() * character.length)];
 }
 
-// Generate password function
+// Function to generate password
 function generatePassword() {
     let password = "";
     const passwordLength = +lengthInput.value;
@@ -59,7 +59,7 @@ generatePasswordButton.addEventListener("click", () => {
     generatePassword();
 });
 
-// Password event listener
+// CopyPassword event listener
 copyPasswordButton.addEventListener("click", (e) => {
     e.preventDefault();
 
