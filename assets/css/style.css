@@ -37,10 +37,13 @@ a, i{
     min-width: 300px;
     height: 100%;
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
 }
 
 .container h1{
@@ -147,7 +150,7 @@ a, i{
 }
 
 #generated-password:hover{
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 /* --------- Footer section style */
@@ -169,7 +172,9 @@ footer > p {
 .fa-brands{
     font-size: 2rem;
     padding-top: 10px;
+    transition: transform 0.5s;
 }
 .fa-brands:hover{
     color: #a04a94;
+    transform: scale(1.1);
 }
