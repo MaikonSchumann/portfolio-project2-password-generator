@@ -1,6 +1,7 @@
 // Elements
 const generatePasswordButton = document.querySelector("#generate-password");
 const generatedPasswordElement = document.querySelector("#generated-password");
+const copyPasswordButton = document.querySelector("#copy-password");
 
 // Inputs
 const lengthInput = document.querySelector("#length");
@@ -34,7 +35,7 @@ function getSymbol() {
 }
 
 // Generate password function
-function generatePassword (
+function generatePassword(
     getLetterLowerCase,
     getLetterUpperCase,
     getNumber,
@@ -67,8 +68,7 @@ function generatePassword (
     // Checking if NO checkbox is checked and showing an alert to the user
     if (generators.length === 0) {
         alert("No caracteres selected! Select your options and generate again!");
-        generatedPasswordElement.querySelector("#password").innerText =
-        "Select your options and generate again!";
+        generatedPasswordElement.querySelector("#password").innerText = "Select your options and generate again!";
         return;
     }
 
@@ -79,8 +79,7 @@ function generatePassword (
 
     // Sending the password value to the generatedPasswordElement to be shown to user
     generatedPasswordElement.querySelector("#password").innerText = password;
-    };
-
+}
 
 // Events
 // Call generatePassword function when the button is clicked
@@ -91,4 +90,25 @@ generatePasswordButton.addEventListener("click", () => {
         getNumber,
         getSymbol
     );
+});
+
+// Password event listener
+copyPasswordButton.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const password = generatedPasswordElement.querySelector("#password").innerText;
+
+    // Checking if the password is not the default generic password
+    if (password === "🔒🔒🔒🔒🔒🔒") {
+        return window.alert("Generate a password before copying!");
+    }
+
+    // Copy password to clipboard
+    navigator.clipboard.writeText(password).then(() => {
+        copyPasswordButton.innerText = "Password copied to clipboard!";
+
+        setTimeout(() => {
+            copyPasswordButton.innerText = "Click to copy the password!";
+        }, 2500);
+    });
 });
