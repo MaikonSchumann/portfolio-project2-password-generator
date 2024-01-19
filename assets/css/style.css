@@ -125,12 +125,21 @@ a, i{
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-in-out;
+    text-decoration: underline;
 }
 
 #generated-password:hover .tooltip{
     opacity: 1;
     visibility: visible;
-    padding-top: 15px;
+    padding: 10px;
+}
+
+.tooltip:hover{
+    background-color: #a04a94;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 #generated-password{
