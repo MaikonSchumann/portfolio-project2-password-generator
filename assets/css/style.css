@@ -1,5 +1,5 @@
-/* --------- Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap');
+/* Font Imported from Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&display=swap");
 
 /* --------- Reset style */
 * {
@@ -10,6 +10,7 @@
     border: none;
     overflow: auto;
     outline: none;
+    
 }
 
 /* --------- Global styles */
@@ -18,11 +19,10 @@ body{
     width: 100vw;
     font-family: 'Source Code Pro', monospace;
     background-image: url("../images/image.webp");
-    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
 }
-
 a, i{
     overflow: hidden;
 }
@@ -62,6 +62,7 @@ a, i{
     -webkit-backdrop-filter: blur(20px);
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.1);
+    z-index: 1;
 }
 
 /* Form control styling */
@@ -103,7 +104,7 @@ a, i{
     background-color: #a04a94;
 }
 
-/* Range input styling */
+/* Number input styling */
 #length{
     background-color: #742785;   
     width: 50%;
@@ -122,7 +123,6 @@ a, i{
     padding: 5px 0;
 }
 
-
 /* Tooltip styling */
 .tooltip{
     visibility: hidden;
@@ -138,13 +138,11 @@ a, i{
 
 .tooltip:hover{
     background-color: #a04a94;
-    font-weight: bold;
     color: #fff;
     border-radius: 8px;
     padding: 4px;
 }
 
-/* Generated password button transitions */
 #generated-password{
     transition: transform 0.5s;
 }
@@ -174,7 +172,6 @@ footer > p {
     padding-top: 10px;
     transition: transform 0.5s;
 }
-
 .fa-brands:hover{
     color: #a04a94;
     transform: scale(1.1);
