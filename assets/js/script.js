@@ -21,7 +21,7 @@ const symbols = "!@#$%&*(){}[]";
  * @returns {String} A character randomly chosen
  */
 function getCharacter(character) {
-  return character[Math.floor(Math.random() * character.length)];
+    return character[Math.floor(Math.random() * character.length)];
 }
 
 /**
