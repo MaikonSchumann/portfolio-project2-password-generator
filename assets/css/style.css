@@ -18,6 +18,7 @@ body{
     width: 100vw;
     font-family: 'Source Code Pro', monospace;
     background-image: url("../images/image.webp");
+    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -57,7 +58,6 @@ a, i{
 
 /* Glass effect styling */
 .glass{
-    /* background: linear-gradient(135deg rgba(255,255,255,0.1), rgba(255,255,255,0)); */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 20px;
@@ -72,7 +72,7 @@ a, i{
 }
 
 .form-control span {
-    color: #4c4c4c;
+    color: #7d7d7d;
     font-weight: normal;
     font-size: .8rem;
 }
@@ -128,7 +128,6 @@ a, i{
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    text-decoration: underline;
 }
 
 #generated-password:hover .tooltip{
@@ -145,6 +144,7 @@ a, i{
     padding: 4px;
 }
 
+/* Generated password button transitions */
 #generated-password{
     transition: transform 0.5s;
 }
@@ -174,6 +174,7 @@ footer > p {
     padding-top: 10px;
     transition: transform 0.5s;
 }
+
 .fa-brands:hover{
     color: #a04a94;
     transform: scale(1.1);
