@@ -43,3 +43,10 @@ For those seeking a seamless password creation experience:
  * Explore and utilize advanced customization options for creating varied passwords tailored to different security needs.
 
 - - -
+
+# Design
+
+## Wireframes:
+
+* Index Page:
+![Index Page Wireframe](documentation/wireframes/indexwireframe.png)
