@@ -6,3 +6,16 @@ Your trusted website for Strong, Stress-Free Passwords!
 
 
 ![Password Generator Web site shown on a range of devices](/documentation/responsive.png)
+
+## Demo
+
+A live demo can be found [here.](https://maikonschumann.github.io/portfolio-project2-password-generator/)
+
+- - -
+
+# Languages Used
+* HTML5
+* CSS3
+* JavaScript
+
+- - - 
