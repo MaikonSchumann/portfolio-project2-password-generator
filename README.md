@@ -106,3 +106,32 @@ The website utilizes a singular font, specifically **Source Code Pro** from **Go
 The website's icons are sourced from [Font Awesome](https://fontawesome.com/icons), and are covered under a free license.
 
 - - - 
+
+# Deployment
+
+The site is hosted on GitHub Pages, deployed directly from the master branch. Automatic updates to the deployed site occur with each new commit to the main branch. It's essential that the landing page is named index.html for correct deployment on GitHub Pages.
+
+To deploy the page on GitHub Pages from its [GitHub repository](https://maikonschumann.github.io/portfolio-project2-password-generator), the following steps were executed: 
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Select **Settings** from the top menu.
+4. Click on "Pages" in the left hand navigation panel.
+5. In the "Source" section, choose the branch to deploy (Main for newer repositories, Master for older ones).
+6. Select the deployment folder, typically "/root".
+7. Click "Save" and wait for the deployment process to complete.
+8. Your URL will be shown above the "Source" section.
+
+## Run locally
+**Fork:**
+1. Login or Sign Up to GitHub.
+2. Open the project [repository](https://maikonschumann.github.io/portfolio-project2-password-generator).
+3. Click the Fork button in the top right corner.
+
+**Clone:**
+1. Login or Sign Up to GitHub.
+2. Open the project [repository](https://maikonschumann.github.io/portfolio-project2-password-generator).
+3. Click on the "Code" button, choose your preferred cloning method (HTTPS, SSH, or GitHub CLI), and copy the provided link.
+4. Open your preferred code editor's terminal and navigate to the desired location for the cloned directory.
+5. Type 'git clone' in the terminal, paste the link from step 3, and press enter.
+
+- - -
