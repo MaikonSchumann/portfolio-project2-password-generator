@@ -101,3 +101,8 @@ The color scheme was crafted around a background image to provide a modern and i
 The website utilizes a singular font, specifically **Source Code Pro** from **Google Fonts**, maintaining a uniform and cohesive typographic style.
 
 - - - 
+
+# Icons
+The website's icons are sourced from [Font Awesome](https://fontawesome.com/icons), and are covered under a free license.
+
+- - - 
