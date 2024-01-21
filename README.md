@@ -39,7 +39,7 @@ For those seeking a seamless password creation experience:
  * Experience the simplicity of copying your generated password with just one click.
 
 ### As a Frequent User 
- * Generate passwords swiftly with minimal effort, leveraging the familiarity of the user-friendly interface.
+ * Generate passwords with minimal effort, leveraging the familiarity of the user-friendly interface.
  * Explore and utilize advanced customization options for creating varied passwords tailored to different security needs.
 
 - - -
@@ -65,3 +65,8 @@ The *Main Section* features a *container*, explore a tailored container where us
 ![Password Generator Main Section](/documentation/mainsection.png)
 
 - - - 
+
+## Footer 
+
+The footer consists of a brief text containing developer information and an icon linking to the developer's GitHub profile.
+![Password Generator Footer](/documentation/footer.png)
