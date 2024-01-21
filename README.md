@@ -50,3 +50,18 @@ For those seeking a seamless password creation experience:
 
 * Index Page:
 ![Index Page Wireframe](documentation/wireframes/indexwireframe.png)
+
+## Features
+
+The website is a single-page experience: the index page. Design to achieve the user needs, easily to understand and straight to the point. Navigate easily through the **Main Section** and find additional information in the friendly **Footer** below.
+
+# **Index page**
+
+The **Home** page is divided into only 2 sections, *Main Section* and *Footer*.
+
+## Main Section
+
+The *Main Section* features a *container*, explore a tailored container where users can choose from a variety of options to customize password generation. Meticulously crafted to elevate user experience and make a lasting impact.
+![Password Generator Main Section](/documentation/mainsection.png)
+
+- - - 
