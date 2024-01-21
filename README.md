@@ -87,3 +87,17 @@ Develop a comprehensive FAQ page to address common user queries, reducing the ne
 Introduce a blog section with relevant articles to build user confidence, and increase overall site traffic.
 
 - - - 
+
+# Color Scheme
+
+The color scheme was crafted around a background image to provide a modern and impactful user experience.
+
+![Password Generator Color Palette](documentation/colors.png)
+
+- - - 
+
+# Typography
+
+The website utilizes a singular font, specifically **Source Code Pro** from **Google Fonts**, maintaining a uniform and cohesive typographic style.
+
+- - - 
