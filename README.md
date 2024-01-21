@@ -135,3 +135,10 @@ To deploy the page on GitHub Pages from its [GitHub repository](https://maikonsc
 5. Type 'git clone' in the terminal, paste the link from step 3, and press enter.
 
 - - -
+
+# Testing 
+The site is designed to smoothly operate, making it easy for users to achieve their goals. Chrome development tools were utilized to catch and fix any issues during the development process. Performance testing was conducted through both manual and automated methods.
+
+1. All website buttons perform as expected when clicked.
+
+2. GitHub Icon link opens in new page.
