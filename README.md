@@ -164,3 +164,14 @@ The site is designed to smoothly operate, making it easy for users to achieve th
 
 4. After click to copy password, the password will be automatically copied to the clipboard.
 ![Copy Button](documentation/testing/copybuttontesting.png)
+
+## Usability
+The Navigation was tested. The menu is easily visible, consistent on all webpages. The users find resources on the site intuitively.
+
+## Compatibility 
+The website is optimized to display correctly on a variety of browsers and screen sizes. The compatibility was checked by testing on Chrome, Firefox, Safari, and Edge.
+
+## Responsiveness
+Checked responsiveness using Chrome DevTools on various screens like iPhone 5 (320px wide) and 5k iMac Pro (5120x2880px). Used media queries for more responsiveness.
+
+- - - 
