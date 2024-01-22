@@ -151,3 +151,9 @@ The site is designed to smoothly operate, making it easy for users to achieve th
 ![Index Page HTML](documentation/testing/w3cindex.png)
   * CSS Page
 ![CSS Page](documentation/testing/w3ccss.png)
+
+2. Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the Password Generator Website.
+ * Index Page Desktop
+![Index Page HTML](documentation/testing/indexlighthousedesktop.png)
+ * Index Page Mobile
+![Index Page HTML](documentation/testing/indexlighthousemobile.png)
