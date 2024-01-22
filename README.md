@@ -142,3 +142,12 @@ The site is designed to smoothly operate, making it easy for users to achieve th
 1. All website buttons perform as expected when clicked.
 
 2. GitHub Icon link opens in new page.
+
+## Functionality
+
+1. Validation for syntax errors on every page of the project was conducted through the utilization of the W3C Markup Validator and W3C CSS Validator Services.
+
+  * Index Page
+![Index Page HTML](documentation/testing/w3cindex.png)
+  * CSS Page
+![CSS Page](documentation/testing/w3ccss.png)
