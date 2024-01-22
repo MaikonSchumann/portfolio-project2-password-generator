@@ -9,7 +9,7 @@ Your trusted website for Strong, Stress-Free Passwords!
 
 ## Demo
 
-A live demo can be found [here.](https://maikonschumann.github.io/portfolio-project2-password-generator/)
+A live demo can be found [here](https://maikonschumann.github.io/portfolio-project2-password-generator/).
 
 - - -
 
@@ -180,10 +180,18 @@ Checked responsiveness using Chrome DevTools on various screens like iPhone 5 (3
 
 I started this project based on my own needs, this is not a copy. 
 
-
 The background image on the website is from Unsplash under a free license agreement.
 1. Image background link can be found [here](https://unsplash.com/pt-br/fotografias/arte-abstrata-verde-e-rosa-z7prq6BtPE4).
 
-
 The Favicon is from Icon Archive under a free license agreement.
 1. The icon link can be found [here](https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/preferences-desktop-user-password-icon.html).
+
+### Below are some YouTube tutorials where I searched expertise to fulfill specific tasks.
+
+Random password generator tutorial.
+* The Youtube tutorial link can be found [here](https://www.youtube.com/watch?v=rqwPKZdOO6o).
+
+The Copy Button.
+* The Copy button was inspired by [this](https://www.youtube.com/watch?v=Uk-uYmC3w5Y) video.
+
+- - -
