@@ -157,3 +157,10 @@ The site is designed to smoothly operate, making it easy for users to achieve th
 ![Index Page HTML](documentation/testing/indexlighthousedesktop.png)
  * Index Page Mobile
 ![Index Page HTML](documentation/testing/indexlighthousemobile.png)
+
+3. After selecting the options and clicking "Generate" a randomly generated password will be displayed.
+  * Generate Button
+![Generate Button](documentation/testing/generatepasswordtesting.png)
+
+4. After click to copy password, the password will be automatically copied to the clipboard.
+![Copy Button](documentation/testing/copybuttontesting.png)
