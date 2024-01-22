@@ -195,3 +195,8 @@ The Copy Button.
 * The Copy button was inspired by [this](https://www.youtube.com/watch?v=Uk-uYmC3w5Y) video.
 
 - - -
+
+# Acknowledgements
+* I appreciate my family's patience as I dedicate considerable time to coding.
+
+* My Mentor Lauren-Nicole Popich for continuous helpful feedback.
