@@ -175,3 +175,15 @@ The website is optimized to display correctly on a variety of browsers and scree
 Checked responsiveness using Chrome DevTools on various screens like iPhone 5 (320px wide) and 5k iMac Pro (5120x2880px). Used media queries for more responsiveness.
 
 - - - 
+
+# Credits
+
+I started this project based on my own needs, this is not a copy. 
+
+
+The background image on the website is from Unsplash under a free license agreement.
+1. Image background link can be found [here](https://unsplash.com/pt-br/fotografias/arte-abstrata-verde-e-rosa-z7prq6BtPE4).
+
+
+The Favicon is from Icon Archive under a free license agreement.
+1. The icon link can be found [here](https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/preferences-desktop-user-password-icon.html).
