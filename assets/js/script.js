@@ -15,6 +15,20 @@ const symbols = "!@#$%&*(){}[]";
 
 // ---------- Functions
 
+
+/**
+ * Verify if at least one checkbox is checked, if not disable the Generate button
+ */
+function verifyCheckbox() {
+    if (lettersInput.checked || numbersInput.checked || symbolsInput.checked) {
+        generatePasswordButton.removeAttribute('disabled');
+    } else {
+        generatePasswordButton.setAttribute('disabled', '');
+        generatedPasswordElement.querySelector("#password").innerText = "Select your options and generate again!";
+    }
+}
+
+
 /**
  * Generate a random character
  * @param {String} character A string with all characters selected
@@ -45,6 +59,7 @@ function copyPassword() {
     });
 }
 
+
 /**
  * Generate a random array of characters to build a password based on
  * user choices.
@@ -74,13 +89,6 @@ function generatePassword() {
                 generators.push(getCharacter(symbols));
             }
         }
-        // If no options were selected by user, the length of the array will be 0
-        // then it will show an alert to user try again
-        if (generators.length === 0) {
-            alert("No characters selected!");
-            generatedPasswordElement.querySelector("#password").innerText = "Select your options and generate again!";
-            return;
-        }
     }
 
     // Loop to add a random character from the generators array and build a password
@@ -102,3 +110,8 @@ generatePasswordButton.addEventListener("click", () => {
 copyPasswordButton.addEventListener("click", () => {
     copyPassword();
 });
+
+// Check the checkboxes change state
+lettersInput.addEventListener('change', verifyCheckbox);
+numbersInput.addEventListener('change', verifyCheckbox);
+symbolsInput.addEventListener('change', verifyCheckbox);
