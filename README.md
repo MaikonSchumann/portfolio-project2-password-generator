@@ -11,6 +11,24 @@ Your trusted website for Strong, Stress-Free Passwords!
 
 A live demo can be found [here](https://maikonschumann.github.io/portfolio-project2-password-generator/).
 
+- - - 
+
+# Contents
+* [Languages Used](#languages-used)
+* [User Experience](#user-experience-ux)
+* [Design](#design)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+  * [Future Implementations](#future-implementations)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Icons](#icons)
+* [Deployment](#deployment)
+  * [Run locally](#run-locally)
+  * [Testing](#testing)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
+
 - - -
 
 # Languages Used
@@ -39,7 +57,7 @@ For those seeking a seamless password creation experience:
  * Experience the simplicity of copying your generated password with just one click.
 
 ### As a Frequent User 
- * Generate passwords with minimal effort, leveraging the familiarity of the user-friendly interface.
+ * Generate passwords swiftly with minimal effort, leveraging the familiarity of the user-friendly interface.
  * Explore and utilize advanced customization options for creating varied passwords tailored to different security needs.
 
 - - -
@@ -71,7 +89,7 @@ The *Main Section* features a *container*, explore a tailored container where us
 The footer consists of a brief text containing developer information and an icon linking to the developer's GitHub profile.
 ![Password Generator Footer](/documentation/footer.png)
 
-- - - 
+- - -
 
 # Future Implementations
 
@@ -145,12 +163,15 @@ The site is designed to smoothly operate, making it easy for users to achieve th
 
 ## Functionality
 
-1. Validation for syntax errors on every page of the project was conducted through the utilization of the W3C Markup Validator and W3C CSS Validator Services.
+### Validators
+1. Validation for this project was conducted using W3C Markup Validator, W3C CSS Validator Services, and Jshint to ensure the absence of syntax errors.
 
   * Index Page
 ![Index Page HTML](documentation/testing/w3cindex.png)
   * CSS Page
 ![CSS Page](documentation/testing/w3ccss.png)
+  * JS Hint
+![JS Hint](documentation/testing/jshinttesting.png)
 
 2. Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the Password Generator Website.
  * Index Page Desktop
@@ -158,15 +179,19 @@ The site is designed to smoothly operate, making it easy for users to achieve th
  * Index Page Mobile
 ![Index Page HTML](documentation/testing/indexlighthousemobile.png)
 
-3. After selecting the options and clicking "Generate" a randomly generated password will be displayed.
-  * Generate Button
-![Generate Button](documentation/testing/generatepasswordtesting.png)
-
-4. After click to copy password, the password will be automatically copied to the clipboard.
-![Copy Button](documentation/testing/copybuttontesting.png)
-
 ## Usability
-The Navigation was tested. The menu is easily visible, consistent on all webpages. The users find resources on the site intuitively.
+**TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
+----------|----------|----------|----------
+Home page	| Size to 320px using Chrome Dev Tools	| Elements look good at 320px | Works as expected
+Home page	| Size to 1920px using Chrome Dev Tools | Elements look good at 1920px | Works as expected
+Password length input | Select a range between 4 to 35 | Should not allow values outside the specified range | Works as expected
+Letters input | Click to add as an option to password | If checked, the option is added to the random password | Works as expected
+Numbers input | Click to add as an option to password | If checked, the option is added to the random password | Works as expected
+Symbols input | Click to add as an option to password | If checked, the option is added to the random password | Works as expected
+Generate button | Click to generate password | If at least one input is checked, it generates the password. If none of the inputs are checked, the button is disabled | Works as expected
+Generated password | Shows the generated password | When hovered, shows the option to copy the password to the clipboard. If no password is generated, an alert prompts the user to generate one before copying | Works as expected
+Copy Password button | Click to copy the password | On click, copy the generated password to the clipboard. If no password is generated, prompt the user to generate one before attempting to copy | Works as expected
+GitHub icon | Link to developer's profile on GitHub | Opens in a new page | Work as expected
 
 ## Compatibility 
 The website is optimized to display correctly on a variety of browsers and screen sizes. The compatibility was checked by testing on Chrome, Firefox, Safari, and Edge.
@@ -181,10 +206,10 @@ Checked responsiveness using Chrome DevTools on various screens like iPhone 5 (3
 I started this project based on my own needs, this is not a copy. 
 
 The background image on the website is from Unsplash under a free license agreement.
-1. Image background link can be found [here](https://unsplash.com/pt-br/fotografias/arte-abstrata-verde-e-rosa-z7prq6BtPE4).
+* Image background link can be found [here](https://unsplash.com/pt-br/fotografias/arte-abstrata-verde-e-rosa-z7prq6BtPE4).
 
 The Favicon is from Icon Archive under a free license agreement.
-1. The icon link can be found [here](https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/preferences-desktop-user-password-icon.html).
+* The FavIcon link can be found [here](https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/preferences-desktop-user-password-icon.html).
 
 ### Below are some YouTube tutorials where I searched expertise to fulfill specific tasks.
 
@@ -192,7 +217,7 @@ Random password generator tutorial.
 * The Youtube tutorial link can be found [here](https://www.youtube.com/watch?v=rqwPKZdOO6o).
 
 The Copy Button.
-* The Copy button was inspired by [this](https://www.youtube.com/watch?v=Uk-uYmC3w5Y) video.
+* The Copy button was inspired by [this](https://www.youtube.com/watch?v=Uk-uYmC3w5Y) tutorial.
 
 - - -
 
