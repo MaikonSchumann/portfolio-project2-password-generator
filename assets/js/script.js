@@ -53,6 +53,7 @@ function generatePassword() {
     let password = "";
     const passwordLength = +lengthInput.value;
     const generators = [];
+    let i;
 
     while (generators.length <= passwordLength) {
         // Checking letters checkbox and add to generators array
