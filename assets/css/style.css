@@ -100,8 +100,14 @@ a, i{
     align-self: center;
 }
 
-.buttons-styles:hover{
+.buttons-styles:hover:enabled{
     background-color: #a04a94;
+}
+
+/*Disabled button style*/
+.buttons-styles:disabled{
+    opacity: 0.3;
+    cursor: not-allowed;
 }
 
 /* Number input styling */
